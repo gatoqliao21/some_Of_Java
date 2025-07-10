@@ -8,6 +8,8 @@
 </head>
 <body>
 
+
+
 	<jsp:include page="Registro.jsp"></jsp:include>  <br>
 	 
 	<jsp:include page="fecha.jsp"></jsp:include>
