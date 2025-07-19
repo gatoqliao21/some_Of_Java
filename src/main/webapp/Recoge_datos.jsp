@@ -39,6 +39,9 @@
 		String excepcion_sql = "INSERT INTO usuarios(nombre,apellido,usuario,contrasena,pais,tecnologia) " +
                 "VALUES ('" + nombre + "','" + apellido + "','" + usuario + "','" + passwrd + "','" + pais + "','" + tecnologia + "')";
 		mi_statement.execute(excepcion_sql);
+		
+		
+		
 		out.println("exito en la ejcucio ");
 		
 		

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+body{
+	
+	
+}
+#titulo{
+	text-align:center
+	
+}
+
+#formulario{
+	
+	display:flex;
+	
+	flex-direction:column;
+	margin:10px;
+	align-items:center;
+}

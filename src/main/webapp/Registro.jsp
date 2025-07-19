@@ -3,13 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+ <link rel="stylesheet" href="css/NewFile.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>FORMULARIOREGISTRO</h2>
+	<h2   id="titulo">FORMULARIOREGISTRO</h2>
 	
-	<form action="Recoge_datos.jsp" method="POST">
+	
+<div id="container-form" >
+
+<form  id="formulario"  action="Recoge_datos.jsp" method="POST">
   <label for="nombre">Nombre:</label> 
   <input type="text" id="nombre" name="nombre.txt" required>
 	<br>
@@ -48,7 +53,8 @@
   <input type="submit" name="button" id="button" value="Enviar">
 </form>
 
-
+</div>	
+	
 </body>
 
 </html>
